@@ -69,7 +69,7 @@ def plot(data: pd.Series) -> None:
     )
 
     fig.update_layout(
-        font_size=20,
+        font_size=15,
         font_weight="bold",
         font_color="black",
         title_y=0.975,

@@ -86,7 +86,7 @@ def execute():
     ))
 
     # Update layout
-    fig.update_layout(title_text="Sankey Diagram", font_size=10)
+    fig.update_layout(title_text="Sankey Diagram", font_size=15, font_weight="bold",)
 
     fig.show()
     return fig

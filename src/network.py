@@ -97,7 +97,7 @@ def execute():
         text=[node for node in G.nodes()],
         textposition="middle center",
         marker=dict(
-            size=35,
+            size=40,
             color=node_colors,
             line=dict(width=2, color='black')
         ),
@@ -113,6 +113,8 @@ def execute():
                         xaxis=dict(showgrid=False, zeroline=False, showticklabels=False,
                                    scaleanchor="y", scaleratio=1), 
                         yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+                        font_size=15,
+                        font_weight="bold",
                     ))
 
     fig.show()
