@@ -77,6 +77,8 @@ def plot(data: pd.Series) -> None:
     )
     fig.show()
 
+    return fig
+
 
 def execute() -> None:
     """
@@ -96,4 +98,4 @@ def execute() -> None:
     formatted_data = format_data(data)
 
     print(formatted_data)
-    plot(formatted_data)
+    return plot(formatted_data)
