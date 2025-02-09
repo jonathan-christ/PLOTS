@@ -31,7 +31,8 @@ for trace in sankey_graph.data:
 fig.update_layout(
     title_text="Combined Plots",
     showlegend=False,
-    margin=dict(l=50, r=50, b=50, t=100)
+    margin=dict(l=50, r=50, b=50, t=100),
+    font_weight="bold"
 )
 
 fig.show()
